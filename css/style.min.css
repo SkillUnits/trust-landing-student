@@ -178,6 +178,12 @@
         line-height: 22px;
     }
 
+    .feedback-section {
+        width: 100%;
+    }
+    .feedback-section h2 {
+        margin-left: 5%;
+    }
     .swiper {
         min-height: 260px;
     }
@@ -247,5 +253,11 @@
     }
     .footer-top {
         margin-bottom: 14px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .swiper {
+        height: 280px;
     }
 }
