@@ -1,0 +1,251 @@
+@media screen and (max-width: 1250px) {
+    .feedbacks-container {
+        display: none;
+    }
+    .swiper {
+        display: block !important;
+    }
+    .feedback {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 862px) {
+    .why-cards {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .nav-container .logo {
+        width: 156px;
+        height: 18px;
+    }
+    .nav-button {
+        font-size: 14px;
+        width: 144px;
+        height: 32px;
+        column-gap: 4px;
+    }
+
+    header {
+        margin: 44px auto 0;
+    }
+    .card {
+        border-radius: 12px;
+    }
+    .card-container {
+        padding: 20px;
+    }
+    header h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    header p {
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 20px;
+    }
+
+    .debt-calculator {
+        margin: 44px auto 0;
+        max-width: 400px;
+        width: 90%;
+    }
+    .debt-calculator h2 {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: left;
+    }
+    .slider-container {
+        position: relative;
+        max-width: 400px;
+        width: 76%;
+        margin: 32px auto 0;
+    }
+    .slider {
+        width: 132%;
+        height: 20px;
+        margin-left: -16%;
+        border-radius: 10px;
+    }
+    .slider::-webkit-slider-thumb {
+        width: 110px;
+        height: 32px;
+        border-radius: 16px;
+    }
+    .slider::-moz-range-thumb {
+        width: 110px;
+        height: 32px;
+        border-radius: 16px;
+    }
+    
+    .slider::-moz-range-progress {
+        height: 100%;
+        width: 40px;
+        background: #783FFF;
+        border-radius: 10px;
+    }
+    
+    .bubble {
+        color: white;
+        padding: 0 0;
+        position: absolute;
+        border-radius: 4px;
+        top: 0;
+        left: 0;
+        transform: translateX(-50%);
+        font-size: 16px;
+        white-space: nowrap;
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 129px;
+        width: 100%;
+        padding-left: 28px;
+    }
+    .bubble::after {
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+        display: none;
+    }
+    .bubble::before {
+        width: 32px;
+        height: 32px;
+        background-size: 14px;
+        right: 1px;
+        display: none;
+    }
+
+    .call-button {
+        height: 40px;
+        border-radius: 100px;
+        margin: 32px auto 0;
+    }
+    .call-button div {
+        width: 32px;
+        height: 32px;
+    }
+
+    section {
+        margin: 52px auto 0;
+    }
+    section h2 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    section p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .last-line {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .how-it-works h2 {
+        font-size: 16px;
+    }
+    .how-it-works ol {
+        margin-top: 16px;
+        padding-left: 20px;
+    }
+    .how-it-works ol li {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 16px;
+    }
+
+    .why-cards {
+        gap: 24px;
+    }
+    .why-card {
+        max-width: 335px;
+        max-height: 282px;
+    }
+    .why-card-content {
+        min-height: 114px;
+    }
+    .why-card-content h2 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .why-card-content p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .swiper {
+        min-height: 260px;
+    }
+    .feedback {
+        min-height: 226px;
+    }
+    .feedback-author p {
+        margin-left: 16px;
+        font-size: 18px;
+    }
+    .feedback .feedback-content {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .faqs-item {
+        margin-top: 32px;
+    }
+    .faqs-item .question p {
+        font-size: 18px;
+        line-height: 25px;
+        max-width: 265px;
+    }
+    .faqs-item .answer {
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: max-height 1s ease, opacity 0.7s ease;
+    }
+    .faqs-item .answer p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .answer.visible {
+        opacity: 1;
+        max-height: 100vh;
+        padding-bottom: 12px;
+    }
+    .answer.hiding {
+        max-height: 0;
+        padding: 0;
+        transition: max-height 0.1s ease, opacity 0.1s ease, padding 0.3s ease;
+    }
+    .question .chevron {
+        width: 14px;
+        height: 14px;
+    }
+    .question .chevron.open {
+        transform: rotate(45deg);
+        transition: transform 0.3s ease;
+    }
+
+    .last-section {
+        text-align: left;
+    }
+    .last-section h2 {
+        margin: 0;
+    }
+    .last-section p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    footer {
+        font-size: 14px;
+        margin-top: 52px;
+    }
+    .footer-top {
+        margin-bottom: 14px;
+    }
+}
